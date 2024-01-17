@@ -1,0 +1,12 @@
+@media (prefers-color-scheme: light) {
+    :root{
+        background:rgb(52, 56, 65);
+        color:#f7f8fb;
+    }
+}
+@media (prefers-color-scheme: dark) {
+    :root{
+        background:rgb(52, 56, 65);
+        color:#f7f8fb;
+    }
+}
