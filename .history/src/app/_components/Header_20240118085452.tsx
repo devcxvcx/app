@@ -1,6 +1,7 @@
 'use client'
 
 import { usePathname } from 'next/navigation'
+import { useRouter } from 'next/router'
 
 import Image from 'next/image';
 import Link from 'next/link'
@@ -11,6 +12,8 @@ import '@styles/globals.css'
 
 export default function Header(){
     const pathname = usePathname();
+    const router = useRouter();
+    console.log(router)
 
     return(
         <header className='header'>

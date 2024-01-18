@@ -52,9 +52,10 @@ button{
     cursor:pointer;
 }
 
-input:focus-visible{outline: 0px;}
+a {color: #fff; text-decoration: none; outline: none}
+a:hover, a:active {text-decoration: none; color:#fff; background-color:#f59000;}
 
-a{text-decoration:none;}
+input:focus-visible{outline: 0px;}
 
 html *{
     font-family: "Pretendard Variable", Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto, "Helvetica Neue", "Segoe UI", "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;

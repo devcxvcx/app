@@ -6,7 +6,7 @@ import Header from '@components/Header'
 
 export const metadata: Metadata = {
     title: 'My Apps',
-    description: '루트',
+    description: 'desc',
     icons: {
         icon: "/favicon.png",
     },

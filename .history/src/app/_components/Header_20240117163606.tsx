@@ -1,7 +1,5 @@
-'use client'
-
-import { usePathname } from 'next/navigation'
-
+'use client';
+import { useRouter } from 'next/router'
 import Image from 'next/image';
 import Link from 'next/link'
 
@@ -10,14 +8,14 @@ import '@styles/globals.css'
 
 
 export default function Header(){
-    const pathname = usePathname();
-
+    const router = useRouter();
+    
     return(
         <header className='header'>
             <Link href="/"><Image className='logo' src={logo} alt=""/></Link>
             <nav>
                 <ul>
-                    <li><Link href="/writer" className={pathname === '/writer' ? 'active':''}>메모장</Link></li>
+                    <li><Link href="/writer">메모장</Link></li>
                     <li>테스트2</li>
                     <li>테스트3</li>
                 </ul>
