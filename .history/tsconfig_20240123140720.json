@@ -27,7 +27,6 @@
       "@styles/*" : ["src/app/_styles/*"],
       "@store/*" : ["src/app/_store/*"],
       "@constants/*" : ["src/app/_constants/*"],
-      "@service/*" : ["src/app/_service/*"],
     }
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],

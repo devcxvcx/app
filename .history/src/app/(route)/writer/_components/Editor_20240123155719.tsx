@@ -14,7 +14,7 @@ import { faClock, faCircleCheck, faCircleExclamation, faCircleNotch } from '@for
 
 
 export default function Editor(){
-    const [deviceInfo, setDeviceInfo] = useRecoilState(deviceInfoState); 
+    const [deviceInfo, setDiviceInfo] = useRecoilState(deviceInfoState); 
     const [regFrom, setRegForm] = useRecoilState(registerForm);
     const [session, setSession] = useRecoilState(sessionState);
     // const [saveView, setSaveView] = useState(false);
