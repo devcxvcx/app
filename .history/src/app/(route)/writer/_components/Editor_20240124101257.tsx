@@ -25,6 +25,7 @@ export default function Editor(){
     const [textLength, setTextLength] = useState<number>(0);
     const [wordBreak, setWordBreak] = useState<string>('A');
 
+
     const timer = useRef<number | null>(null);
 
     const logout = () => {
